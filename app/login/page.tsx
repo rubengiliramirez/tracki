@@ -51,19 +51,12 @@ function DashboardMockup() {
   );
 }
 
-// ─── Grupo de Avatares ───
-function AvatarGroup() {
-  const AVATAR_COLORS = ["bg-emerald-600", "bg-sky-600", "bg-violet-600"];
-  const AVATAR_INITIALS = ["A", "B", "C"];
+// ─── Nota del proyecto ───
+function ProjectNote() {
   return (
-    <div className="flex items-center gap-2">
-      <div className="flex -space-x-2">
-        {AVATAR_COLORS.map((color, i) => (
-          <div key={i} className={`w-8 h-8 rounded-full ${color} border-2 border-[#161d19] flex items-center justify-center text-white text-xs font-bold`}>{AVATAR_INITIALS[i]}</div>
-        ))}
-      </div>
-      <p className="text-sm text-[#bbcabf] ml-2">Únete a más de 10,000 usuarios</p>
-    </div>
+    <p className="text-sm text-[#bbcabf]">
+      Proyecto académico · CFGS Desarrollo de Aplicaciones Multiplataforma
+    </p>
   );
 }
 
@@ -121,7 +114,7 @@ export default function LoginPage() {
             <p className="text-2xl font-semibold leading-snug text-[#bbcabf] max-w-md">Controla tus gastos e ingresos de forma sencilla y visual.</p>
           </div>
           <div className="relative z-10 w-full mt-12 mb-12"><DashboardMockup /></div>
-          <div className="relative z-10 mt-auto"><AvatarGroup /></div>
+          <div className="relative z-10 mt-auto"><ProjectNote /></div>
         </div>
 
         {/* Panel Derecho: Formulario */}

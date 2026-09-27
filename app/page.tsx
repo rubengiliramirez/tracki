@@ -356,20 +356,13 @@ export default function LandingPage() {
               </motion.div>
             </motion.div>
 
-            {/* Prueba social: avatares y contador de usuarios */}
-            <motion.div
+            {/* Contexto del proyecto */}
+            <motion.p
               variants={heroItem}
-              className="flex items-center justify-center lg:justify-start gap-4"
+              className="text-sm text-[#bbcabf] text-center lg:text-left"
             >
-              <div className="flex -space-x-3">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 border-2 border-[#0e1511] flex items-center justify-center text-xs font-bold text-white">A</div>
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 border-2 border-[#0e1511] flex items-center justify-center text-xs font-bold text-white">B</div>
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-pink-500 to-pink-600 border-2 border-[#0e1511] flex items-center justify-center text-xs font-bold text-white">C</div>
-              </div>
-              <p className="text-sm text-[#bbcabf]">
-                Únete a más de <strong className="text-[#dde4dd]">10,000</strong> usuarios
-              </p>
-            </motion.div>
+              Proyecto académico · CFGS Desarrollo de Aplicaciones Multiplataforma
+            </motion.p>
           </motion.div>
 
           {/* Columna derecha: mockup con entrada animada y flotación continua */}
@@ -556,8 +549,8 @@ export default function LandingPage() {
                 transition={{ delay: 0.1 }}
                 className="text-lg md:text-xl text-[#bbcabf] mb-10 max-w-xl mx-auto leading-relaxed"
               >
-                Únete a miles de personas que ya están mejorando su salud
-                financiera con Tracki. Es gratis y solo toma un minuto empezar.
+                Crea tu cuenta y empieza a registrar tus cuentas, movimientos
+                y objetivos de ahorro. Es gratis y solo toma un minuto.
               </motion.p>
               <motion.div
                 variants={scrollReveal}
@@ -585,7 +578,7 @@ export default function LandingPage() {
                 </motion.div>
               </motion.div>
               <p className="text-xs text-[#86948a] mt-6">
-                Sin tarjeta de crédito · Cancela cuando quieras
+                Proyecto académico · Hecho con Next.js y Supabase
               </p>
             </div>
           </motion.div>
