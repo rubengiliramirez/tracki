@@ -143,4 +143,4 @@ Abre [http://localhost:3000](http://localhost:3000).
 
 ## Autores
 
-Proyecto desarrollado en pareja por **Rubén Gili Ramírez** y **[NOMBRE DE TU COMPAÑERO]**. No repartimos módulos: diseñamos, programamos y revisamos juntos cada parte de la aplicación.
+Proyecto desarrollado en pareja por **Rubén Gili Ramírez** y **[Pablo Muñoz]**. No repartimos módulos: diseñamos, programamos y revisamos juntos cada parte de la aplicación.
